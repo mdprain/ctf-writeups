@@ -1,7 +1,5 @@
 # DUCTF 2022 - Treasure Hunt Writeup
 
-!(images/pic1.png)
-
 For this challenge, we are given a One Piece themed website with a simple sign up and login page. As part of my methodology, I intially tried a simple SQL injection to see if the login could be bypassed. When this failed, I created a test user account and logged in, to see if I could find any other information that I could exploit in order to find the flag.
 
 ![Logged in with the test user account](images/pic2.png)
