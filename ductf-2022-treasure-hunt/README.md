@@ -14,7 +14,7 @@ By using the [JSON Web Token Toolkit](https://github.com/ticarpi/jwt_tool), we a
 
 ![Successfully cracking the password for the JWT](images/pic4.png)
 
-**Success!** With the newly found password, we can forge a JWT with any parameters we want - specifically, one with the "sub" value set to 1.
+**Success!** With the newly found password of "onepiece", we can forge a JWT with any parameters we want - specifically, one with the "sub" value set to 1.
 
 ![Forging the cookie with "sub" set to 1](images/pic5.png)
 
