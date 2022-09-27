@@ -4,7 +4,7 @@ For this challenge, we are given a One Piece themed website with a simple sign u
 
 ![Logged in with the test user account](images/pic2.png)
 
-After using "Inspect" in Firefox, I noticed a new cookie starting with the characters "eyJ" - a dead giveaway that this is a JWT (or a Flask session cookie). To verify this, I copied the entire cookie's string to [JWT.io](https://jwt.io).
+After using "Inspect" in Firefox, I noticed a new cookie starting with the characters "eyJ" - a dead giveaway that this is a JSON Web Token (or a Flask session cookie). To verify this, I copied the entire cookie's string to [JWT.io](https://jwt.io).
 
 ![JWT.io showing the values inside the token](images/pic3.png)
 
