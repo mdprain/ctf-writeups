@@ -1,5 +1,15 @@
 # DUCTF 2022 - Treasure Hunt Writeup
 
+### Challenge Description
+
+>Well the world has been looking for this treasure for the last 25 years. Maybe you will have a better chance at finding it?
+>
+>Author: Crem#2193
+>
+>https://web-treasure-hunt-e9a4730c2093.2022.ductf.dev
+
+### Writeup
+
 For this challenge, we are given a One Piece themed website with a simple sign up and login page. As part of my methodology, I intially tried a simple SQL injection to see if the login could be bypassed. When this failed, I created a test user account and logged in, to see if I could find any other information that I could exploit in order to find the flag.
 
 ![Logged in with the test user account](images/pic2.png)
@@ -22,4 +32,6 @@ After copying the forged JWT back into Firefox and reloading the webpage, we hav
 
 ![Successfully accessing the first account with the flag](images/pic6.png)
 
-```Flag: DUCTF{7h3-0n3-p13c3-15-4ll-7h3-fl465-y0u-637-4l0n6-7h3-w4y}```
+### Flag
+
+```DUCTF{7h3-0n3-p13c3-15-4ll-7h3-fl465-y0u-637-4l0n6-7h3-w4y}```
